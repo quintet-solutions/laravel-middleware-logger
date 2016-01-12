@@ -1,0 +1,22 @@
+{
+    "name": "quintetsolutions/laravelmiddlewarelogger",
+    "description": "Middleware package for logging all requests and responses",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Quintet Solutions",
+            "email": "contact@quintetsolutions.com"
+        }
+    ],
+    "autoload": { 
+        "psr-4": { 
+            "quintetsolutions\\laravelmiddlewarelogger\\" : "/src" 
+        } 
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
