@@ -34,7 +34,7 @@ Add the provider to your config/app.php:
 
 Publish package config:
 ```
-  php artisan vendor:publish
+  php artisan vendor:publish --provider="quintetsolutions\laravelmiddlewarelogger\LaravelMiddlewareLoggerServiceProvider"
 ```
 
 Options

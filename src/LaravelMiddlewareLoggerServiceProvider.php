@@ -27,6 +27,8 @@ class LaravelMiddlewareLoggerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(
+            __DIR__.'/Config/laravelmiddlewarelogger.php', 'laravelmiddlewarelogger'
+        );
     }
 }
